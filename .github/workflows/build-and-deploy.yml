@@ -25,5 +25,7 @@ jobs:
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
+          REPOSITORY_NAME: magiskboy/iam-web-ui
           BRANCH: gh-pages
           FOLDER: .
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}

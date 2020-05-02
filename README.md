@@ -11,4 +11,5 @@
 
 ```bash
 $ bower install
-$ http-server .```
+$ http-server .
+```
