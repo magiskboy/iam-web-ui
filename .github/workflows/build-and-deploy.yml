@@ -17,11 +17,6 @@ jobs:
         with:
           persist-credentials: false
 
-      - name: Build 🔧
-        run: |
-          npm install bower
-          export PATH=$(npm bin):$PATH
-          bower install
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:

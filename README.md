@@ -5,11 +5,9 @@
 
 #### Prerequirement
 
-* Bower
 * Http server
 
 
 ```bash
-$ bower install
 $ http-server .
 ```
